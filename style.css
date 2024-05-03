@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #ff44009f;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{    
+    background-color: #ffd9009c;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+form input{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+form button{
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    color: white;
+    cursor: pointer;
+    flex-basis: 30px;
+}
